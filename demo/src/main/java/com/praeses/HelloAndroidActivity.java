@@ -69,7 +69,7 @@ public class HelloAndroidActivity extends RoboActivity {
                 createNum = new Random().nextInt(3) + 1;
             } while (createNum == list.size());
             
-            for (int i = 0; i < createNum; ++i) {
+            for (int i = 0; i < 1; ++i) {
                 Person person = new Person();
                 person.setName("John");
                 personDao.create(person);

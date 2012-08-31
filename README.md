@@ -36,6 +36,7 @@ http://www.nbandroid.org/2012/06/did-you-ask-for-maven.html
 
 After this has completed, just open up the maven project and everything
 should be ready to go.
+
 ------------------------------------------------------------------------
 ORMLite Documentation
 http://ormlite.com/javadoc/ormlite-core/doc-files/ormlite.html#SEC_Top

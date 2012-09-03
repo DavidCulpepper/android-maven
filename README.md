@@ -20,6 +20,11 @@ git clone git://github.com/mosabua/maven-android-sdk-deployer.git
 cd maven-android-sdk-deployer
 mvn install -P 4.0
 
+(If you had android previously then the above step might balk at extras. 
+If you have a folder called 'android-sdk\extras\android\compatibility' then delete it and redownload the
+android extras so that instead of compatibility you see a folder called 'support')
+
+
 Navigate to where you would like to create a git repository:
 
 git clone git@github.com:Harahel/android-maven.git
@@ -38,6 +43,11 @@ After this has completed, just open up the maven project and everything
 should be ready to go.
 
 ------------------------------------------------------------------------
+
+If you are unable to run via netbeans then run it via command line
+mvn -P 4.0 android:run android:install
+
+
 ORMLite Documentation
 http://ormlite.com/javadoc/ormlite-core/doc-files/ormlite.html#SEC_Top
 
